@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="quiz-container" id="quiz">
+      <form id="quiz-form" aria-labelledby="quiz-title">
+        <header class="quiz-header">
+          <h2 id="quiz-title">Quiz</h2>
+          <p id="question" class="question-text">Loading question...</p>
+        </header>
+
+        <fieldset>
+          <legend class="visually-hidden">Answer choices</legend>
+          <ul>
+            <li>
+              <input 
+                type="radio" 
+                name="answer" 
+                id="a" 
+                class="answer" 
+                aria-describedby="a_text" 
+              />
+              <label for="a" id="a_text">Answer A</label>
+            </li>
+            <li>
+              <input 
+                type="radio" 
+                name="answer" 
+                id="b" 
+                class="answer" 
+                aria-describedby="b_text" 
+              />
+              <label for="b" id="b_text">Answer B</label>
+            </li>
+            <li>
+              <input 
+                type="radio" 
+                name="answer" 
+                id="c" 
+                class="answer" 
+                aria-describedby="c_text" 
+              />
+              <label for="c" id="c_text">Answer C</label>
+            </li>
+            <li>
+              <input 
+                type="radio" 
+                name="answer" 
+                id="d" 
+                class="answer" 
+                aria-describedby="d_text" 
+              />
+              <label for="d" id="d_text">Answer D</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <button type="button" id="submit" aria-label="Submit your answer">
+          Submit
+        </button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
