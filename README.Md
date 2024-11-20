@@ -102,3 +102,6 @@ A simple and interactive web-based Quiz App built using **HTML**, **CSS**, and *
 ## License
 
 This project is open-source and available for modification. Feel free to use it for your learning and development needs.
+
+## Contact
+For any questions or feedback, please reach out to: `kavindrakapkoti5@gmail.com`
